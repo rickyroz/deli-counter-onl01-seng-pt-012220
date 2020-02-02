@@ -5,7 +5,7 @@ def line(katz_deli)
   puts "The line is currently empty."
 else
   # katz_deli = ["Logan", "Avi", "Spencer"]
-  current_sentence = "The line is currnently;"
+  current_sentence = "The line is currently;"
   counter = 1
   katz_deli.each do |p|
     current_sentence += "#{counter}. #{p}"
@@ -14,3 +14,4 @@ else
     puts current_sentence
   end
 end
+  
